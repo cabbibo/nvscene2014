@@ -246,7 +246,6 @@ define(function(require, exports, module) {
     }
     
     if( mesh.material._update ){
-      console.log('CORRECT' );
       this.addToUpdateArray( mesh.material._update );
     }
 

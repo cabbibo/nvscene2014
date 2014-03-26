@@ -43,7 +43,6 @@ define(function(require, exports, module) {
   function FractalCombo( womb , parameters ){
 
 
-    console.log( 'HELLO' );
     womb.loader.addToLoadBar();
 
     var params = _.defaults( parameters || {} , {

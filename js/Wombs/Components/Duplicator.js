@@ -126,7 +126,6 @@ define(function(require, exports, module) {
     duplicator.loopThroughMeshes = loopThroughMeshes.bind( duplicator);
 
     duplicator.placements = duplicator.placementFunction( params.numOf , params.size );  
-    console.log( duplicator.placements );
  
     return duplicator;
 

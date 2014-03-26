@@ -24,7 +24,6 @@ define(function(require, exports, module) {
 
       this.OBJLoader.load( file , function( object ){
         geometries = [];
-        console.log( this );
         this.womb.loader.loadBarAdd();
         object.traverse( function ( child ) {
 

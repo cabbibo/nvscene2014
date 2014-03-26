@@ -153,11 +153,7 @@ define(function(require, exports, module) {
 
     particleMaterial.FBORenderer = FBORenderer;
     particleMaterial.simulationShader = simulationShader;
-    console.log( particleMaterial );
     if( params.audioTexture ){
-      console.log('hello' );
-      console.log( params.audioTexture );
-      console.log( particleMaterial );
       particleMaterial.uniforms.audioTexture.value = params.audioTexture;
     }
 
